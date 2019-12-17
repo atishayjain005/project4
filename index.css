@@ -6,32 +6,134 @@
 }
 body{
     background-color: rgb(255, 255, 255);
-    font-family: 'Passion One', cursive;
+    font-family:'Fira Sans Condensed', sans-serif;
+}
+.logo{
+  text-align: left;
+  position: absolute;
+  color: aliceblue;
+  font-size: 92px;
+  padding-left: 200px;
+  padding-top: 0px;
+  color: rgb(255, 130, 46);
+}
+.name{
+  text-align: left;
+  position: absolute;
+  color: blanchedalmond;
+  font-size: 45px;
+  margin: 15px;
+  margin-left: 250px;
+  padding: 13px 10px;
 }
 .menu{
-    background-image: url(milky-way-2695569_1920);
+    background-image: url(silhouette-of-golden-gate-bridge-during-golden-hour-1485894.jpg);
+    background-position: top;
+    height: 400px;
+    text-align: right;
+    background-origin: padding-box;
 }
 .menu-bar{
     text-align: center;
-    width: 150px;
-    height: 50px;
-    font-size: 29px;
-  -webkit-transition-property: width,background-color; 
-  -webkit-transition-duration: 1s; 
-  transition-property: width,background-color;
-  transition-duration: ease-in-out 2s;
-  padding-top: 10.5px;
-  padding-left: 10px;
+    width: max-content;
+    height: 60px;
+    font-size: 20px;
+  -webkit-transition-property:height,background-color; 
+  -webkit-transition-duration: 0.5s; 
+  transition-property:height,background-color;
+  transition-duration: 0.5s;
+ padding: 30px;
+ margin: 0px 30px;
+  display: inline-flex;
 }
 .menu-bar a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 130, 46);
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+.menu-bar a:hover{
+    color: rgb(255, 255, 255);
 }
 .menu-bar .fa{
-margin-right: 5px;
-font-size: 25px;
+margin-right: 10px;
+font-size: 20px;
 }
 .menu-bar:hover {
-  width: 200px;
-  background: rgba(199, 199, 199, 0.431);
+  background: rgba(0, 0, 0, 0.431);
+  color: black;
+  height: 90px;
+}
+.head{
+  text-align: center;
+  background-image: linear-gradient(rgb(255, 232, 217),white);
+  font-size: 49px;
+  height: max-content;
+  width: 900px;
+  margin: auto;
+  margin-top: -220px;
+  padding: 60px;
+  font-weight: bold;
+  line-height: 70px;
+  color:#120029;
+  -webkit-transition-property:box-shadow,width,font-size;
+  -webkit-transition-duration:0.5s;
+  transition-property: box-shadow,width,font-size;
+  transition-duration:0.5s;
+}
+.head .span{
+ color:  rgb(255, 130, 46);
+}
+.head:hover{
+  width: 1100px;
+  font-size: 59px;
+}
+.container{
+  margin: auto;
+  color: black;
+  background-image: linear-gradient(rgb(230, 230, 230),white);
+  width: 100%;
+  margin-top: 100px;
+  height: 100%;
+  padding: 0px 150px;
+  display: inline-flex;
+}
+.container .content{
+  padding-top: 100px;
+  font-size: 30px;
+  width: 1000px;
+  text-align: center;
+}
+.container .image{
+  right: 0px;
+}
+.container1{
+  margin: auto;
+  color: black;
+  background-image: linear-gradient(rgb(230, 230, 230),white);
+  width: 100%;
+  margin-top: 100px;
+  height: 100%;
+  padding: 0px 150px;
+  display: inline-flex;
+}
+.container1 .content1{
+  padding-top: 100px;
+  font-size: 30px;
+  width: 1000px;
+  text-align: center;
+}
+.container1 .image1{
+}
+footer{
+  font-size: 20px;
+  background-color: black;
+  color:rgba(121, 121, 121, 0.623) ;
+  text-align: center;
+  height: max-content;
+  padding: 10px;
+}
+footer .fa{
+  margin: 20px;
+font-size: 40px;
 }
